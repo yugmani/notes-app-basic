@@ -39,3 +39,4 @@ const myNote = require('./notes.js');
 // using imported function
 const message = myNote();
 console.log(message);
+
