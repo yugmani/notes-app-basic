@@ -52,3 +52,11 @@ console.log('next Boolean: ' + validator.isBoolean(nextBoolean)); //true
 console.log('Yes Boolean: ' + validator.isBoolean(yesBoolean)); //false
 console.log('No Boolean: ' + validator.isBoolean(noBoolean)); //false
 
+//6. Validating date
+const today = new Date();
+const lastDay = new Date(2021 / 12 / 30);
+const someDate = '300 - 01 - 2023';
+
+console.log('Today: ' + validator.isDate(today));
+console.log('Last date: ' + validator.isDate(lastDay));
+console.log('some Date: ' + validator.isDate(someDate));
